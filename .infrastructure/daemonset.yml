@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: DaemonSet
 metadata:
  name: todoapp-server
- namespace: todoapp
+ namespace: mateapp
  labels:
    app: todoapp-server
 spec:
